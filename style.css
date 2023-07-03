@@ -1,0 +1,49 @@
+*{
+    font-family: 'PT Serif', serif;
+}
+
+body {
+    margin: 0;
+}
+
+h1{
+    background-color: aqua;
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+h1>span{
+    font-size: 12px;
+    margin: 0, 50px;
+}
+
+div{
+    width: 800px;
+    height: 560px;
+}
+
+div>h2,h4{
+    text-align: center;
+}
+
+p{
+    text-align: left;
+    width: 800px;
+    margin: 20px auto;
+}
+
+img {
+    width: 250px;
+    margin: 20px;
+    border: 5px,solid,black;
+}
+
+p>img{
+    float: left;
+}
+
+h1>p{
+    font-size: 20px;
+}
+
